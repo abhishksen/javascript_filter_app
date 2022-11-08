@@ -1,0 +1,100 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+span{
+
+}
+
+.title{
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2.5rem;
+  color: #555;
+  font-weight: 450;
+  border-bottom: 0.01rem solid #676161;
+}
+
+.container {
+  overflow: hidden;
+  display: flex;
+  padding: 1.5rem;
+}
+
+.leftMenu {
+  flex: 1;
+  border-right: 0.01rem solid #676161;
+}
+
+.search {
+  padding: 0.5rem;
+  width: 200px;
+  border-radius: 0.1rem solid #555;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: #333;
+}
+
+.cats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.cat {
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding: 0.3rem;
+}
+
+.content {
+  flex: 4;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+.product {
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  border-radius: 0.2rem;
+  border: 0.01rem solid #bebebe;
+  padding-bottom: 1rem;
+}
+
+.product:hover {
+  cursor: pointer;
+  border: none;
+  transition: 0.2s all ease-in-out;
+  box-shadow: 20px 20px 25px #676161;
+}
+
+
+
+.name,
+.priceText{
+  padding:1px 5px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+img {
+  width: 100px;
+  height: 200px;
+  object-fit: contain;
+}
